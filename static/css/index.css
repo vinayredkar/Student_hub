@@ -1,0 +1,37 @@
+.inputform {
+    background: rgb(255, 0, 0);
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.inputform .input{
+    margin-top: 200px;
+    height: 40px;
+}
+
+.input h1{
+    text-align: center;
+    color: white;
+}
+input{
+    margin: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom:1px solid white ;
+}
+button{
+    margin-left: 23%;
+    padding: 10px 40px;
+    border-radius: 5%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}

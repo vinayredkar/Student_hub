@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    color: blue;
+    font-family: 'Open Sans', sans-serif;
 }
 .logo img{
     height: 50px;
     width: auto;
+}
+nav{
+    float: right;
+    background: yellow;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 50px;
+}
+nav ul li{
+    padding: 0 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
