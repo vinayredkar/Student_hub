@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: blue;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+}
