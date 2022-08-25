@@ -7,12 +7,13 @@ db = SQLAlchemy(app)
 #class Vinay(db.Model):
 
 @app.route('/')
-def hello_world():
-    return render_template('First.html')
-@app.route('/profile')
-def profile():
+def First():
     return render_template('profile.html')
-   #return 'Hello, World!'
+
+@app.route('/Login')
+def Login():  
+   return render_template('Login.html')
+   
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, use_debugger=False, use_reloader=False)
