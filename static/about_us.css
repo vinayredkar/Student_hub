@@ -8,8 +8,6 @@ body {
     color: #f9f5f5;
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url("builtin/bg.jpg");
     padding-bottom: 75px; 
-    width: 3000px;
-    height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
     }
