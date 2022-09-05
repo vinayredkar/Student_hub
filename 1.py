@@ -1,14 +1,16 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:////Vinay.db"
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///todo.db"
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
 db = SQLAlchemy(app)
 
 #class Vinay(db.Model):
 
 @app.route('/')
 def First():
-    return render_template('profile.html')
+    return render_template('index.html')
 
 @app.route('/Login')
 def Login():  
